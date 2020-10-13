@@ -1,20 +1,40 @@
 <template>
   <div id="app">
+    <div id="ParticlesContainer">
+      <ParticlesComponent></ParticlesComponent>
+    </div>
+    <div id="ApplicationContent">
+      <router-view/>
+    </div>
+    <!--
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
+    -->
   </div>
 </template>
 
 <style>
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li{ margin:0; }
+
+#ParticlesContainer{ position: fixed; width: 100vw; height: 100vh; z-index: 100; background:#2A2A2A; }
+
+#ApplicationContent{ position: absolute; width: 100%; z-index: 999; padding-top: 20px; padding-left: 20px; padding-right: 20px; }
+
+.row{ display: flex; flex-direction: row; }
+
+.div-100{ width: 100%; }
+
+.text-center{ display: flex; justify-content: center; }
+
+.style-1{ width: 80%; border:2px solid #F5F5F5; }
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
 }
 
 #nav {
@@ -30,3 +50,11 @@
   color: #42b983;
 }
 </style>
+<script>
+import ParticlesComponent from "@/components/ParticlesComponent";
+
+export default {
+  components: { ParticlesComponent }
+}
+
+</script>

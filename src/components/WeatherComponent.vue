@@ -1,6 +1,6 @@
 <template>
   <div id="WeatherComponent">
-
+    <h2>Weather Component</h2>
   </div>
 </template>
 

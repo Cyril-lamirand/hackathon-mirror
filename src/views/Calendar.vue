@@ -1,12 +1,16 @@
 <template>
   <div id="CalendarVue">
 
+    <CalendarComponent/>
+
   </div>
 </template>
 
 <script>
+import CalendarComponent from "@/components/CalendarComponent";
 export default {
-name: "Calendar"
+name: "Calendar",
+  components: {CalendarComponent}
 }
 </script>
 

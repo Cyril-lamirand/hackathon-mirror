@@ -1,6 +1,6 @@
 <template>
   <div id="CalendarComponent">
-
+      <H2>Calendar Component</H2>
   </div>
 </template>
 

@@ -1,12 +1,16 @@
 <template>
   <div id="WeatherVue">
 
+    <WeatherComponent/>
+
   </div>
 </template>
 
 <script>
+import WeatherComponent from "@/components/WeatherComponent";
 export default {
-  name: "Weather"
+  name: "Weather",
+  components: {WeatherComponent}
 }
 </script>
 
