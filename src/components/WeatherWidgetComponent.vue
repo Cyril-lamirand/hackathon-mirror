@@ -8,10 +8,6 @@
         text-color="#F5F5F5"
         hide-header=true
     />
-    <hr class="style-1">
-    <div class="text-center">
-      <b-button size="lg" variant="light">Voir plus d'informations</b-button>
-    </div>
   </div>
 
 </template>

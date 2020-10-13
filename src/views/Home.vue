@@ -1,14 +1,12 @@
 <template>
   <div id="HomeVue">
-    <div class="row">
-      <div class="col-6">
-        <WeatherWidget/>
-      </div>
-      <div class="col-6">
+    <div class="col-12">
+      <WeatherWidget/>
+    </div>
+      <div class="col-12">
         <Calendar/>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
