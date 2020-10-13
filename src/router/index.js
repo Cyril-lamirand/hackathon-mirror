@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Home from '@/views/Home.vue'
 import MedicalMonitoring from "@/views/MedicalMonitoring"
 import Calendar from "@/views/Calendar"
 import Weather from "@/views/Weather"
