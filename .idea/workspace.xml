@@ -14,26 +14,9 @@
       <change afterPath="$PROJECT_DIR$/../dvj-flight/src/components/AirportMap.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../dvj-flight/src/components/Navbar.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../dvj-flight/src/components/TreeMap.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CalendarComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HomeComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MedicalMonitoringComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NavbarComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ParticlesComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/WeatherComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/WeatherWidgetComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Calendar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/MedicalMonitoring.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Navbar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Weather.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/WeatherWidget.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +32,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ipBLTD6vtQ7GMiLnx1yXXeZdhp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -76,6 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602594597172</updated>
       <workItem from="1602594598382" duration="10994000" />
+      <workItem from="1602608871211" duration="505000" />
     </task>
     <servers />
   </component>
@@ -92,6 +76,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602596672489">
