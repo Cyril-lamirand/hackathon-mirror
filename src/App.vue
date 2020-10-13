@@ -17,19 +17,13 @@
 
 <style>
 
-body, h1, h2, h3, h4, h5, h6, p, ul, li{ margin:0; }
+body, h1, h2, h3, h4, h5, h6, p, ul, li{ margin:0; overflow-x:hidden; }
 
 #ParticlesContainer{ position: fixed; width: 100vw; height: 100vh; z-index: 100; background:#2A2A2A; }
 
 #ApplicationContent{ position: absolute; width: 100%; z-index: 999; padding-top: 20px; padding-left: 20px; padding-right: 20px; }
 
-.row{ display: flex; flex-direction: row; }
-
-.div-100{ width: 100%; }
-
-.text-center{ display: flex; justify-content: center; }
-
-.style-1{ width: 80%; border:2px solid #F5F5F5; }
+.style-1{ width: 90%; border:2px solid #F5F5F5; border-radius: 4px; }
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

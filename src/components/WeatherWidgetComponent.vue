@@ -6,11 +6,11 @@
         language="fr"
         bar-color="#F5F5F5"
         text-color="#F5F5F5"
-        hide-header="true"
+        hide-header=true
     />
     <hr class="style-1">
     <div class="text-center">
-      <b-button size="lg">Voir plus d'informations</b-button>
+      <b-button size="lg" variant="light">Voir plus d'informations</b-button>
     </div>
   </div>
 
@@ -30,8 +30,6 @@ export default {
 
 <style scoped>
 
-#WeatherWidgetComponent{ color:#FFFFFF !important; background-color: rgba(12,12,12,0.8); border-radius: 8px; padding-top: 20px;}
-
-#vww__day-bar{ color: white !important;}
+#WeatherWidgetComponent{ color:#FFFFFF !important; background-color: rgba(12,12,12,0.8); border-radius: 8px; padding-top: 20px; padding-bottom: 15px; }
 
 </style>

@@ -1,10 +1,10 @@
 <template>
   <div id="HomeVue">
     <div class="row">
-      <div class="div-100">
+      <div class="col-6">
         <WeatherWidget/>
       </div>
-      <div class="div-100">
+      <div class="col-6">
         <Calendar/>
       </div>
     </div>
@@ -21,3 +21,7 @@ export default {
   components: {Calendar, WeatherWidget }
 }
 </script>
+
+<style>
+
+</style>
