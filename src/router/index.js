@@ -1,9 +1,12 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+
 import Home from '@/views/Home.vue'
 import MedicalMonitoring from "@/views/MedicalMonitoring"
 import Calendar from "@/views/Calendar"
 import Weather from "@/views/Weather"
+import Setting from "@/views/Setting"
+import Note from "@/views/Note"
 
 Vue.use(VueRouter)
 
@@ -15,8 +18,8 @@ const routes = [
   },
 
   {
-    path: '/MedicalMonitoring',
-    name: 'MedicalMonitoring',
+    path: '/Medical',
+    name: 'Medical',
     component: MedicalMonitoring
   },
 
@@ -24,6 +27,18 @@ const routes = [
     path: '/Calendar',
     name: 'Calendar',
     component: Calendar
+  },
+
+  {
+    path: '/Notes',
+    name: 'Notes',
+    component: Note
+  },
+
+  {
+    path: '/Settings',
+    name: 'Settings',
+    component: Setting
   },
 
   {

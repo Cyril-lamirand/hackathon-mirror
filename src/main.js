@@ -3,11 +3,13 @@ import App from './App.vue'
 import VueParticles from 'vue-particles'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import router from './router'
+import moment from 'moment'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 Vue.config.productionTip = false
+Vue.prototype.moment = moment
 
 // Install BootstrapVue
 Vue.use(BootstrapVue)

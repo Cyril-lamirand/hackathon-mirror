@@ -1,6 +1,5 @@
 <template>
-  <div id="CalendarComponent">
-    <H2>Calendar Component</H2>
+  <div id="SettingComponent">
 
     <!-- Navigation Fixe : BAS -->
     <Navbar/>
@@ -9,15 +8,14 @@
 
 <script>
 import Navbar from "@/views/Navbar";
-
 export default {
-name: "CalendarComponent",
+name: "SettingComponent",
   components: {Navbar}
 }
 </script>
 
 <style scoped>
 
-#CalendarComponent{}
+#SettingComponent{}
 
 </style>

@@ -1,12 +1,14 @@
 <template>
   <div id="MedicalMonitoringVue">
-
+    <MedicalMonitoringComponent/>
   </div>
 </template>
 
 <script>
+import MedicalMonitoringComponent from "@/components/MedicalMonitoringComponent";
 export default {
-name: "MedicalMonitoring"
+name: "MedicalMonitoring",
+  components: {MedicalMonitoringComponent}
 }
 </script>
 

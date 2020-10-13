@@ -17,11 +17,22 @@
 
 <style>
 
-body, h1, h2, h3, h4, h5, h6, p, ul, li{ margin:0; overflow-x:hidden; }
+@font-face {
+  font-family: "Digital";
+  src: local("Digital"),
+  url(./fonts/digital-7.ttf) format("truetype");
+}
+body, h1, h2, h3, h4, h5, h6, p, ul, li{ margin:0; }
 
-#ParticlesContainer{ position: fixed; width: 100vw; height: 100vh; z-index: 100; background:#2A2A2A; }
+a{ text-decoration: none !important;}
+
+a:hover{ text-decoration: none !important;}
+
+#ParticlesContainer{ position: fixed; width: 100vw; z-index: 100; background:#2A2A2A; }
 
 #ApplicationContent{ position: absolute; width: 100%; z-index: 999; padding-top: 20px; padding-left: 20px; padding-right: 20px; }
+
+.particles-js-canvas-el{ height: 100vh !important; }
 
 .style-1{ width: 90%; border:2px solid #F5F5F5; border-radius: 4px; }
 

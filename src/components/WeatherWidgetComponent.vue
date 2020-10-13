@@ -6,7 +6,7 @@
         language="fr"
         bar-color="#F5F5F5"
         text-color="#F5F5F5"
-        hide-header=true
+        hide-header="true"
     />
   </div>
 
@@ -26,6 +26,12 @@ export default {
 
 <style scoped>
 
-#WeatherWidgetComponent{ color:#FFFFFF !important; background-color: rgba(12,12,12,0.8); border-radius: 8px; padding-top: 20px; padding-bottom: 15px; }
+#WeatherWidgetComponent{
+  display: flex;
+  justify-content: center;
+  background-color: rgba(12,12,12,0.8);
+  border-radius: 8px;
+  padding-top: 20px;
+  padding-bottom: 15px; }
 
 </style>
