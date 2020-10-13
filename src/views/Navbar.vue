@@ -1,5 +1,7 @@
 <template>
+  <div id="NavbarVue">
 
+  </div>
 </template>
 
 <script>
@@ -9,5 +11,7 @@ name: "Navbar"
 </script>
 
 <style scoped>
+
+#NavbarVue{}
 
 </style>

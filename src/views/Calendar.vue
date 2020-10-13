@@ -1,5 +1,7 @@
 <template>
+  <div id="CalendarVue">
 
+  </div>
 </template>
 
 <script>
@@ -9,5 +11,7 @@ name: "Calendar"
 </script>
 
 <style scoped>
+
+#CalendarVue{}
 
 </style>

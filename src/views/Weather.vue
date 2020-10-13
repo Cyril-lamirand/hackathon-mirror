@@ -1,5 +1,7 @@
 <template>
+  <div id="WeatherVue">
 
+  </div>
 </template>
 
 <script>
@@ -9,5 +11,7 @@ export default {
 </script>
 
 <style scoped>
+
+#WeatherVue{}
 
 </style>

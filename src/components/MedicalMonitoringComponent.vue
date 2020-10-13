@@ -1,5 +1,7 @@
 <template>
+  <div id="MedicalMonitoringComponent">
 
+  </div>
 </template>
 
 <script>
@@ -9,5 +11,7 @@ name: "MedicalMonitoringComponent"
 </script>
 
 <style scoped>
+
+#MedicalMonitoringComponent{}
 
 </style>

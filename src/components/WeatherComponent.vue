@@ -1,5 +1,7 @@
 <template>
+  <div id="WeatherComponent">
 
+  </div>
 </template>
 
 <script>
@@ -9,5 +11,7 @@ name: "WeatherComponent"
 </script>
 
 <style scoped>
+
+#WeatherComponent{}
 
 </style>

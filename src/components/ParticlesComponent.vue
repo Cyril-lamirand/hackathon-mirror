@@ -1,17 +1,13 @@
 <template>
-  <div id="NavbarComponent">
 
-  </div>
 </template>
 
 <script>
 export default {
-name: "NavbarComponent"
+name: "ParticlesComponent"
 }
 </script>
 
 <style scoped>
-
-#NavbarComponent{}
 
 </style>
