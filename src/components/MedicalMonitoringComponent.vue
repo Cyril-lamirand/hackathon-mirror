@@ -1,5 +1,184 @@
 <template>
   <div id="MedicalMonitoringComponent">
+    <div class="container-fluid">
+      <div class="text-center" id="TitleContainer">
+        <h1>Mon suivi personnalisé</h1>
+      </div>
+
+      <div class="row">
+
+        <div class="col-6">
+          <div id="ContainerOrdonnance">
+            <div class="text-center">
+              <h2>Ordonnance en cours</h2>
+            </div>
+            <hr>
+            <div class="col-12">
+              <h4>Numéro d'ordonnance : <b>54#205</b></h4>
+              <h4>Praticien : <b>Docteur Jacques ARTUR</b></h4>
+              <h4>Date d'émission : <b>05/04/2020</b></h4>
+              <h4>Date fin de traitement : <b>10/04/2020</b></h4>
+            </div>
+            <hr>
+            <div class="col-12">
+              <div class="row">
+                <div class="col-2">
+                   <img class="img-fluid" src="@/assets/logo.png"/>
+                </div>
+                <div class="col-10">
+                  <h5>Nom du médicament : <b>LAMELINE</b></h5>
+                  <h5>Quantité : 2 Boîtes</h5>
+                  <h5>Nombre par jours : <b>2</b></h5>
+                  <h5>Prise : <b>Avant/Après repas</b></h5>
+                </div>
+              </div>
+              <div class="row medic-pt">
+                <div class="col-2">
+                  <img class="img-fluid" src="@/assets/logo.png"/>
+                </div>
+                <div class="col-10">
+                  <h5>Nom du médicament : <b>LAMELINE</b></h5>
+                  <h5>Quantité : 2 Boîtes</h5>
+                  <h5>Nombre par jours : <b>2</b></h5>
+                  <h5>Prise : <b>Avant/Après repas</b></h5>
+                </div>
+              </div>
+              <div class="row medic-pt">
+                <div class="col-2">
+                  <img class="img-fluid" src="@/assets/logo.png"/>
+                </div>
+                <div class="col-10">
+                  <h5>Nom du médicament : <b>LAMELINE</b></h5>
+                  <h5>Quantité : 2 Boîtes</h5>
+                  <h5>Nombre par jours : <b>2</b></h5>
+                  <h5>Prise : <b>Avant/Après repas</b></h5>
+                </div>
+              </div>
+              <div class="row medic-pt">
+                <div class="col-2">
+                  <img class="img-fluid" src="@/assets/logo.png"/>
+                </div>
+                <div class="col-10">
+                  <h5>Nom du médicament : <b>LAMELINE</b></h5>
+                  <h5>Quantité : 2 Boîtes</h5>
+                  <h5>Nombre par jours : <b>2</b></h5>
+                  <h5>Prise : <b>Avant/Après repas</b></h5>
+                </div>
+              </div>
+              <div class="row medic-pt">
+                <div class="col-2">
+                  <img class="img-fluid" src="@/assets/logo.png"/>
+                </div>
+                <div class="col-10">
+                  <h5>Nom du médicament : <b>LAMELINE</b></h5>
+                  <h5>Quantité : 2 Boîtes</h5>
+                  <h5>Nombre par jours : <b>2</b></h5>
+                  <h5>Prise : <b>Avant/Après repas</b></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div id="ContainerTraitement">
+            <div class="text-center">
+              <h2>Traitement</h2>
+            </div>
+            <hr>
+
+            <div class="accordion" role="tablist">
+              <b-card no-body class="mb-1">
+                <b-card-header header-tag="header" class="p-1" role="tab">
+                  <b-button block v-b-toggle.accordion-1 variant="info">Lundi</b-button>
+                </b-card-header>
+                <b-collapse id="accordion-1" visible accordion="my-accordion" role="tabpanel">
+                  <b-card-body>
+                    <b-card-text>
+                      <p>Avancement</p>
+                      <b-progress :value="value" :max="max" show-value class="mb-3"></b-progress>
+                      <p>Médicament(s)</p>
+
+                    </b-card-text>
+                  </b-card-body>
+                </b-collapse>
+              </b-card>
+
+              <b-card no-body class="mb-1">
+                <b-card-header header-tag="header" class="p-1" role="tab">
+                  <b-button block v-b-toggle.accordion-2 variant="info">Mardi</b-button>
+                </b-card-header>
+                <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
+                  <b-card-body>
+                    <b-card-text>Hello</b-card-text>
+                  </b-card-body>
+                </b-collapse>
+              </b-card>
+
+              <b-card no-body class="mb-1">
+                <b-card-header header-tag="header" class="p-1" role="tab">
+                  <b-button block v-b-toggle.accordion-3 variant="info">Mercredi</b-button>
+                </b-card-header>
+                <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
+                  <b-card-body>
+                    <b-card-text>Hello</b-card-text>
+                  </b-card-body>
+                </b-collapse>
+              </b-card>
+
+              <b-card no-body class="mb-1">
+                <b-card-header header-tag="header" class="p-1" role="tab">
+                  <b-button block v-b-toggle.accordion-4 variant="info">Jeudi</b-button>
+                </b-card-header>
+                <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
+                  <b-card-body>
+                    <b-card-text>Hello</b-card-text>
+                  </b-card-body>
+                </b-collapse>
+              </b-card>
+
+              <b-card no-body class="mb-1">
+                <b-card-header header-tag="header" class="p-1" role="tab">
+                  <b-button block v-b-toggle.accordion-5 variant="info">Vendredi</b-button>
+                </b-card-header>
+                <b-collapse id="accordion-5" accordion="my-accordion" role="tabpanel">
+                  <b-card-body>
+                    <b-card-text>Hello</b-card-text>
+                  </b-card-body>
+                </b-collapse>
+              </b-card>
+
+              <b-card no-body class="mb-1">
+                <b-card-header header-tag="header" class="p-1" role="tab">
+                  <b-button block v-b-toggle.accordion-6 variant="info">Samedi</b-button>
+                </b-card-header>
+                <b-collapse id="accordion-6" accordion="my-accordion" role="tabpanel">
+                  <b-card-body>
+                    <b-card-text>Hello</b-card-text>
+                  </b-card-body>
+                </b-collapse>
+              </b-card>
+
+              <b-card no-body class="mb-1">
+                <b-card-header header-tag="header" class="p-1" role="tab">
+                  <b-button block v-b-toggle.accordion-7 variant="info">Dimanche</b-button>
+                </b-card-header>
+                <b-collapse id="accordion-7" accordion="my-accordion" role="tabpanel">
+                  <b-card-body>
+                    <b-card-text>Hello</b-card-text>
+                  </b-card-body>
+                </b-collapse>
+              </b-card>
+
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Partie Alex -->
     <div id="traitement" class="traitement">
       <h3>Mes Traitements</h3>
       <hr class="trait">
@@ -59,7 +238,13 @@
 import Navbar from "@/views/Navbar";
 export default {
 name: "MedicalMonitoringComponent",
-  components: {Navbar}
+  components: {Navbar},
+  data() {
+    return {
+      value: 33.333333333,
+      max: 50
+    }
+  }
 }
 </script>
 
@@ -161,4 +346,21 @@ name: "MedicalMonitoringComponent",
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
+
+#TitleContainer{
+  height: 100px;
+  background-color: rgba(12,12,12,0.8);
+  color:#F5F5F5;
+  text-transform: uppercase;
+  padding-top: 25px;
+  border-radius: 8px;
+}
+
+#ContainerOrdonnance, #ContainerTraitement{ margin-top: 50px; color: #F5F5F5; text-transform: uppercase; background-color: rgba(12,12,12,0.8); border-radius: 8px; padding-top: 20px; padding-left: 20px; padding-right: 20px; padding-bottom: 20px; }
+
+hr{ border:2px solid white; border-radius: 4px; width: 70%; }
+
+.medic-pt{ padding-top: 15px; }
+
 </style>
