@@ -12,10 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9ca66d5d-5616-4cf0-9312-5a89d465a252" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/app.40de78b7.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.8ed6c1d3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.8ed6c1d3.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CalendarComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CalendarComponent.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
