@@ -12,6 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9ca66d5d-5616-4cf0-9312-5a89d465a252" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CalendarComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CalendarComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MedicalMonitoringComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MedicalMonitoringComponent.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +47,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="D:\Applications\JetBrains\apps\WebStorm\ch-0\202.6948.73\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -75,6 +78,7 @@
       <workItem from="1602612812408" duration="12362000" />
       <workItem from="1602662568834" duration="96000" />
       <workItem from="1602663915696" duration="4398000" />
+      <workItem from="1602707285447" duration="9953000" />
     </task>
     <servers />
   </component>
@@ -178,9 +182,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602680570129" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602695520684">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-973" y="-153" width="672" height="1643" key="search.everywhere.popup" timestamp="1602711770149">
+      <screen x="-1440" y="-698" width="1440" height="2520" />
     </state>
+    <state x="-973" y="-153" width="672" height="1643" key="search.everywhere.popup/0.0.1920.1040/-1440.-698.1440.2520@-1440.-698.1440.2520" timestamp="1602711770149" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602695520684" />
   </component>
 </project>

@@ -7,28 +7,28 @@
       <!-- Semaine 1 -->
       <div class="row" style="margin-top: 20px;">
         <div class="col-2">
-          <div class="container-item-calendar">
+          <div class="container-item-calendar c-grey">
             <h3>27 Dimanche</h3>
             <hr>
 
           </div>
         </div>
         <div class="col-2">
-          <div class="container-item-calendar">
+          <div class="container-item-calendar c-grey">
             <h3>28 Lundi</h3>
             <hr>
 
           </div>
         </div>
         <div class="col-2">
-          <div class="container-item-calendar">
+          <div class="container-item-calendar c-grey">
             <h3>29 Mardi</h3>
             <hr>
 
           </div>
         </div>
         <div class="col-2">
-          <div class="container-item-calendar">
+          <div class="container-item-calendar c-grey">
             <h3>30 Mercredi</h3>
             <hr>
 
@@ -224,7 +224,7 @@
           <div class="container-item-calendar">
             <h3>23 Vendredi</h3>
             <hr>
-            <p><b>10h05</b>RDV Dr MEROT</p>
+            <p><b>10h05</b> RDV Dr MEROT</p>
             <p>Cabinet Dentaire</p>
           </div>
         </div>
@@ -289,7 +289,7 @@
           </div>
         </div>
         <div class="col-2">
-          <div class="container-item-calendar">
+          <div class="container-item-calendar c-grey">
             <h3>01 Dimanche</h3>
             <hr>
 
@@ -336,5 +336,7 @@ h3{ color: #F5F5F5; font-size: 18px; }
 p{ font-size: 12px; color: #F5F5F5; }
 
 hr{ border:1px solid white; }
+
+.c-grey{ background-color: #4e555b; }
 
 </style>

@@ -6,11 +6,10 @@
       </div>
 
       <div class="row">
-
         <div class="col-6">
           <div id="ContainerOrdonnance">
             <div class="text-center">
-              <h2>Ordonnance en cours</h2>
+              <h2 class="uppercase">Ordonnance en cours</h2>
             </div>
             <hr>
             <div class="col-12">
@@ -20,333 +19,396 @@
               <h4>Date fin de traitement : <b>10/04/2020</b></h4>
             </div>
             <hr>
-            <div class="col-12">
-              <div class="row">
-                <div class="col-2">
-                   <img class="img-fluid" src="@/assets/logo.png"/>
-                </div>
-                <div class="col-10">
-                  <h5>Nom du médicament : <b>LAMELINE</b></h5>
-                  <h5>Quantité : 2 Boîtes</h5>
-                  <h5>Nombre par jours : <b>2</b></h5>
-                  <h5>Prise : <b>Avant/Après repas</b></h5>
-                </div>
-              </div>
-              <div class="row medic-pt">
-                <div class="col-2">
-                  <img class="img-fluid" src="@/assets/logo.png"/>
-                </div>
-                <div class="col-10">
-                  <h5>Nom du médicament : <b>LAMELINE</b></h5>
-                  <h5>Quantité : 2 Boîtes</h5>
-                  <h5>Nombre par jours : <b>2</b></h5>
-                  <h5>Prise : <b>Avant/Après repas</b></h5>
-                </div>
-              </div>
-              <div class="row medic-pt">
-                <div class="col-2">
-                  <img class="img-fluid" src="@/assets/logo.png"/>
-                </div>
-                <div class="col-10">
-                  <h5>Nom du médicament : <b>LAMELINE</b></h5>
-                  <h5>Quantité : 2 Boîtes</h5>
-                  <h5>Nombre par jours : <b>2</b></h5>
-                  <h5>Prise : <b>Avant/Après repas</b></h5>
-                </div>
-              </div>
-              <div class="row medic-pt">
-                <div class="col-2">
-                  <img class="img-fluid" src="@/assets/logo.png"/>
-                </div>
-                <div class="col-10">
-                  <h5>Nom du médicament : <b>LAMELINE</b></h5>
-                  <h5>Quantité : 2 Boîtes</h5>
-                  <h5>Nombre par jours : <b>2</b></h5>
-                  <h5>Prise : <b>Avant/Après repas</b></h5>
-                </div>
-              </div>
-              <div class="row medic-pt">
-                <div class="col-2">
-                  <img class="img-fluid" src="@/assets/logo.png"/>
-                </div>
-                <div class="col-10">
-                  <h5>Nom du médicament : <b>LAMELINE</b></h5>
-                  <h5>Quantité : 2 Boîtes</h5>
-                  <h5>Nombre par jours : <b>2</b></h5>
-                  <h5>Prise : <b>Avant/Après repas</b></h5>
-                </div>
-              </div>
-            </div>
+            <table style="width: 100%;">
+              <tr class="text-center">
+                <th>Image</th>
+                <th>Médicament</th>
+                <th>Quantité</th>
+                <th>Prise</th>
+              </tr>
+              <tr class="text-center">
+                <td>
+                  <div class="text-center">
+                    <img width="64" class="img-pills" src="@/assets/pills-1.jpg"/>
+                  </div>
+                </td>
+                <td>Laméline</td>
+                <td>2 Boîtes</td>
+                <td>Après repas</td>
+              </tr>
+              <tr class="text-center">
+                <td>
+                  <div class="text-center">
+                    <img width="64" class="img-pills" src="@/assets/pills-2.jpg"/>
+                  </div>
+                </td>
+                <td>Doliprane</td>
+                <td>2 Boîtes</td>
+                <td>Après repas</td>
+              </tr>
+              <tr class="text-center">
+                <td>
+                  <div class="text-center">
+                    <img width="64" class="img-pills" src="@/assets/pills-3.jpg"/>
+                  </div>
+                </td>
+                <td>Spasfon</td>
+                <td>2 Boîtes</td>
+                <td>Après repas</td>
+              </tr>
+              <tr class="text-center">
+                <td>
+                  <div class="text-center">
+                    <img width="64" class="img-pills" src="@/assets/pills-4.jpg"/>
+                  </div>
+                </td>
+                <td>Dafalgan</td>
+                <td>2 Boîtes</td>
+                <td>Après repas</td>
+              </tr>
+            </table>
+            <hr>
+            <h4 style="padding-top: 20px;">Complément d'information du praticien : </h4>
+            <p style="padding-top: 20px;">Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus accusantium asperiores autem beatae consequatur cumque cupiditate deleniti eum fugiat illo iusto mollitia nostrum odio, optio quos ratione, ullam unde.</p>
+            <p style="text-align: right"><b>Le 13 Octobre 2020,</b></p>
+            <p style="text-align: right"><b>Docteur Jacques ARTUR.</b></p>
           </div>
         </div>
 
         <div class="col-6">
           <div id="ContainerTraitement">
             <div class="text-center">
-              <h2>Traitement</h2>
+              <h2 class="uppercase">Traitement</h2>
             </div>
             <hr>
-
             <div class="accordion" role="tablist">
               <b-card no-body class="mb-1">
                 <b-card-header header-tag="header" class="p-1" role="tab">
-                  <b-button block v-b-toggle.accordion-1 variant="info">Lundi</b-button>
+                  <b-button block v-b-toggle.accordion-1 variant="success">Lundi</b-button>
                 </b-card-header>
                 <b-collapse id="accordion-1" visible accordion="my-accordion" role="tabpanel">
                   <b-card-body>
                     <b-card-text>
-                      <p>Avancement</p>
-                      <b-progress :value="value" :max="max" show-value class="mb-3"></b-progress>
-                      <p>Médicament(s)</p>
-
+                      <b-progress :value="valueLundi" show-value striped :animated=true class="mb-3"></b-progress>
+                      <p>Matinée</p>
+                      <ul>
+                        <li>Laméline x1</li>
+                        <li>Doliprane x2</li>
+                      </ul>
+                      <p>Midi</p>
+                      <ul>
+                        <li>Dafalgan x1</li>
+                      </ul>
+                      <p>Soirée</p>
+                      <ul>
+                        <li>Laméline x1</li>
+                        <li>Doliprane x1</li>
+                      </ul>
+                      <b-form-checkbox-group
+                          v-model="checked"
+                          :options="lundi"
+                          class="mb-3"
+                          value-field="item"
+                          text-field="name"
+                          disabled-field="notEnabled"
+                      ></b-form-checkbox-group>
                     </b-card-text>
                   </b-card-body>
                 </b-collapse>
               </b-card>
-
               <b-card no-body class="mb-1">
                 <b-card-header header-tag="header" class="p-1" role="tab">
-                  <b-button block v-b-toggle.accordion-2 variant="info">Mardi</b-button>
+                  <b-button block v-b-toggle.accordion-2 variant="success">Mardi</b-button>
                 </b-card-header>
                 <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
                   <b-card-body>
-                    <b-card-text>Hello</b-card-text>
+                    <b-card-text>
+                      <b-progress :value="valueMardi" show-value striped :animated=true class="mb-3"></b-progress>
+                      <p>Matinée</p>
+                      <ul>
+                        <li>Laméline x1</li>
+                        <li>Doliprane x2</li>
+                      </ul>
+                      <p>Midi</p>
+                      <ul>
+                        <li>Dafalgan x1</li>
+                      </ul>
+                      <p>Soirée</p>
+                      <ul>
+                        <li>Laméline x1</li>
+                        <li>Doliprane x1</li>
+                      </ul>
+                      <b-form-checkbox-group
+                          v-model="checked"
+                          :options="mardi"
+                          class="mb-3"
+                          value-field="item"
+                          text-field="name"
+                          disabled-field="notEnabled"
+                      ></b-form-checkbox-group>
+                    </b-card-text>
                   </b-card-body>
                 </b-collapse>
               </b-card>
-
               <b-card no-body class="mb-1">
                 <b-card-header header-tag="header" class="p-1" role="tab">
-                  <b-button block v-b-toggle.accordion-3 variant="info">Mercredi</b-button>
+                  <b-button block v-b-toggle.accordion-3 variant="danger">Mercredi</b-button>
                 </b-card-header>
                 <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
                   <b-card-body>
-                    <b-card-text>Hello</b-card-text>
+                    <b-card-text>
+                      <b-progress :value="valueMercredi" show-value striped :animated=true variant="warning" class="mb-3"></b-progress>
+                      <p>Matinée</p>
+                      <ul>
+                        <li>Laméline x1</li>
+                        <li>Doliprane x2</li>
+                      </ul>
+                      <p>Midi</p>
+                      <ul>
+                        <li>Dafalgan x1</li>
+                      </ul>
+                      <p>Soirée</p>
+                      <ul>
+                        <li>Laméline x1</li>
+                        <li>Doliprane x1</li>
+                      </ul>
+                      <b-form-checkbox-group
+                          v-model="checked"
+                          :options="mercredi"
+                          class="mb-3"
+                          value-field="item"
+                          text-field="name"
+                          disabled-field="notEnabled"
+                      ></b-form-checkbox-group>
+                    </b-card-text>
                   </b-card-body>
                 </b-collapse>
               </b-card>
-
               <b-card no-body class="mb-1">
                 <b-card-header header-tag="header" class="p-1" role="tab">
-                  <b-button block v-b-toggle.accordion-4 variant="info">Jeudi</b-button>
+                  <b-button block v-b-toggle.accordion-4 variant="success">Jeudi</b-button>
                 </b-card-header>
                 <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
                   <b-card-body>
-                    <b-card-text>Hello</b-card-text>
+                    <b-card-text>
+                      <b-progress :value="valueJeudi" show-value striped :animated=true class="mb-3"></b-progress>
+                      <p>Matinée</p>
+                      <ul>
+                        <li>Laméline x1</li>
+                        <li>Doliprane x2</li>
+                      </ul>
+                      <p>Midi</p>
+                      <ul>
+                        <li>Dafalgan x1</li>
+                      </ul>
+                      <p>Soirée</p>
+                      <ul>
+                        <li>Laméline x1</li>
+                        <li>Doliprane x1</li>
+                      </ul>
+                      <b-form-checkbox-group
+                          v-model="checked"
+                          :options="jeudi"
+                          class="mb-3"
+                          value-field="item"
+                          text-field="name"
+                          disabled-field="notEnabled"
+                      ></b-form-checkbox-group>
+                    </b-card-text>
                   </b-card-body>
                 </b-collapse>
               </b-card>
-
               <b-card no-body class="mb-1">
                 <b-card-header header-tag="header" class="p-1" role="tab">
                   <b-button block v-b-toggle.accordion-5 variant="info">Vendredi</b-button>
                 </b-card-header>
                 <b-collapse id="accordion-5" accordion="my-accordion" role="tabpanel">
                   <b-card-body>
-                    <b-card-text>Hello</b-card-text>
+                    <b-card-text>
+                      <p>Matinée</p>
+                      <ul>
+                        <li>Laméline x1</li>
+                        <li>Doliprane x2</li>
+                      </ul>
+                      <p>Midi</p>
+                      <ul>
+                        <li>Dafalgan x1</li>
+                      </ul>
+                      <p>Soirée</p>
+                      <ul>
+                        <li>Laméline x1</li>
+                        <li>Doliprane x1</li>
+                      </ul>
+                      <b-form-checkbox-group
+                          v-model="selected"
+                          :options="vendredi"
+                          class="mb-3"
+                          value-field="item"
+                          text-field="name"
+                      >
+                      </b-form-checkbox-group>
+                      <p>Sélection : {{ selected }} // AllChecked : {{ AllChecked }}</p>
+                    </b-card-text>
                   </b-card-body>
                 </b-collapse>
               </b-card>
-
               <b-card no-body class="mb-1">
                 <b-card-header header-tag="header" class="p-1" role="tab">
-                  <b-button block v-b-toggle.accordion-6 variant="info">Samedi</b-button>
+                  <b-button block v-b-toggle.accordion-6 variant="primary">Samedi</b-button>
                 </b-card-header>
                 <b-collapse id="accordion-6" accordion="my-accordion" role="tabpanel">
                   <b-card-body>
-                    <b-card-text>Hello</b-card-text>
+                    <b-card-text>
+                      <b-progress :value="valueSamedi" show-value class="mb-3"></b-progress>
+                      <p>Matinée</p>
+                      <ul>
+                        <li>Laméline x1</li>
+                        <li>Doliprane x2</li>
+                      </ul>
+                      <p>Midi</p>
+                      <ul>
+                        <li>Dafalgan x1</li>
+                      </ul>
+                      <p>Soirée</p>
+                      <ul>
+                        <li>Laméline x1</li>
+                        <li>Doliprane x1</li>
+                      </ul>
+                      <b-form-checkbox-group
+                          v-model="checked"
+                          :options="samedi"
+                          class="mb-3"
+                          value-field="item"
+                          text-field="name"
+                          disabled-field="notEnabled"
+                      ></b-form-checkbox-group>
+                    </b-card-text>
                   </b-card-body>
                 </b-collapse>
               </b-card>
-
               <b-card no-body class="mb-1">
                 <b-card-header header-tag="header" class="p-1" role="tab">
-                  <b-button block v-b-toggle.accordion-7 variant="info">Dimanche</b-button>
+                  <b-button block v-b-toggle.accordion-7 variant="primary">Dimanche</b-button>
                 </b-card-header>
                 <b-collapse id="accordion-7" accordion="my-accordion" role="tabpanel">
                   <b-card-body>
-                    <b-card-text>Hello</b-card-text>
+                    <b-card-text>
+                      <b-progress :value="valueDimanche" show-value class="mb-3"></b-progress>
+                      <p>Matinée</p>
+                      <ul>
+                        <li>Laméline x1</li>
+                        <li>Doliprane x2</li>
+                      </ul>
+                      <p>Midi</p>
+                      <ul>
+                        <li>Dafalgan x1</li>
+                      </ul>
+                      <p>Soirée</p>
+                      <ul>
+                        <li>Laméline x1</li>
+                        <li>Doliprane x1</li>
+                      </ul>
+                      <b-form-checkbox-group
+                          v-model="checked"
+                          :options="dimanche"
+                          class="mb-3"
+                          value-field="item"
+                          text-field="name"
+                          disabled-field="notEnabled"
+                      ></b-form-checkbox-group>
+                    </b-card-text>
                   </b-card-body>
                 </b-collapse>
               </b-card>
-
-
             </div>
-
           </div>
         </div>
       </div>
     </div>
-
-    <!-- Partie Alex -->
-    <div id="traitement" class="traitement">
-      <h3>Mes Traitements</h3>
-      <hr class="trait">
-      <div class="traitement-matin">
-        <h4>Matin</h4>
-        <br>
-        <label class="conteneur">Ketaprofene x1
-          <input type="checkbox" >
-          <span class="checkmark"></span>
-        </label>
-        <br>
-        <label class="conteneur">Lamaline x2
-          <input type="checkbox">
-          <span class="checkmark"></span>
-        </label>
-        <br>
-        <label class="conteneur">Célécoxib x1
-          <input type="checkbox" >
-          <span class="checkmark"></span>
-        </label>
-        <br>
-      </div>
-      <div class="traitement-midi">
-        <h4>Midi</h4>
-        <br>
-        <label class="conteneur">Lamaline x2
-          <input type="checkbox">
-          <span class="checkmark"></span>
-        </label>
-        <br>
-      </div>
-      <div class="traitement-soir">
-        <h4>Soir</h4>
-        <br>
-        <label class="conteneur">Ketaprofene x1
-          <input type="checkbox" >
-          <span class="checkmark"></span>
-        </label>
-        <br>
-        <label class="conteneur">Lamaline x2
-          <input type="checkbox">
-          <span class="checkmark"></span>
-        </label>
-        <br>
-        <label class="conteneur">Célécoxib x1
-          <input type="checkbox" >
-          <span class="checkmark"></span>
-        </label>
-      </div>
-    </div>
     <!-- Navigation Fixe : BAS -->
-    <Navbar/>
+    <Navbar></Navbar>
   </div>
 </template>
 
 <script>
 import Navbar from "@/views/Navbar";
+
 export default {
 name: "MedicalMonitoringComponent",
-  components: {Navbar},
+  components: { Navbar },
   data() {
     return {
-      value: 33.333333333,
-      max: 50
+      valueLundi: 100,
+      valueMardi: 100,
+      valueMercredi: 90,
+      valueJeudi: 100,
+      valueVendredi: 0,
+      valueSamedi: 0,
+      valueDimanche: 0,
+
+      AllChecked: false,
+
+      selected: [],
+      value:[],
+
+      checked: [
+        'A','B','C','D',
+        'E','F','G','H',
+        'I','K','L',
+        'M','N','O','P'
+      ],
+
+      lundi: [
+        { item: 'A', name: 'Laméline x2', notEnabled: true },
+        { item: 'B', name: 'Dafalgan x1', notEnabled: true },
+        { item: 'C', name: 'Spasfon x1', notEnabled: true },
+        { item: 'D', name: 'Doliprane x3', notEnabled: true }
+      ],
+      mardi: [
+        { item: 'E', name: 'Laméline x2', notEnabled: true },
+        { item: 'F', name: 'Dafalgan x1', notEnabled: true },
+        { item: 'G', name: 'Spasfon x1', notEnabled: true },
+        { item: 'H', name: 'Doliprane x3', notEnabled: true }
+      ],
+      mercredi: [
+        { item: 'I', name: 'Laméline x2', notEnabled: true },
+        { item: 'J', name: 'Dafalgan x1', notEnabled: true },
+        { item: 'K', name: 'Spasfon x1', notEnabled: true },
+        { item: 'L', name: 'Doliprane x3', notEnabled: true }
+      ],
+      jeudi: [
+        { item: 'M', name: 'Laméline x2', notEnabled: true },
+        { item: 'N', name: 'Dafalgan x1', notEnabled: true },
+        { item: 'O', name: 'Spasfon x1', notEnabled: true },
+        { item: 'P', name: 'Doliprane x3', notEnabled: true }
+      ],
+      vendredi: [
+        { item: 'Q', name: 'Laméline x2', value: 25 },
+        { item: 'R', name: 'Dafalgan x1', value: 25 },
+        { item: 'S', name: 'Spasfon x1', value: 25 },
+        { item: 'T', name: 'Doliprane x3', value: 25 }
+      ],
+      samedi: [
+        { item: 'U', name: 'Laméline x2', notEnabled: true },
+        { item: 'V', name: 'Dafalgan x1', notEnabled: true },
+        { item: 'W', name: 'Spasfon x1', notEnabled: true },
+        { item: 'X', name: 'Doliprane x3', notEnabled: true }
+      ],
+      dimanche: [
+        { item: 'Y', name: 'Laméline x2', notEnabled: true },
+        { item: 'Z', name: 'Dafalgan x1', notEnabled: true },
+        { item: '0', name: 'Spasfon x1', notEnabled: true },
+        { item: '1', name: 'Doliprane x3', notEnabled: true }
+      ]
+
     }
-  }
+  },
+  methods: {},
+  computed: {}
 }
 </script>
 
 <style scoped>
-
-#MedicalMonitoringComponent{}
-.traitement{
-  width: 80%;
-  margin: 10%;
-  font-size: 1.75rem;
-}
-
-.traitement-matin, .traitement-midi, .traitement-soir{
-  color: white;
-  margin: 3% 0 0 0;
-}
-
-.traitement label{
-  margin: 0 10% !important;
-}
-
-.traitement h3{
-  font-size: 3rem;
-  text-align: center;
-  color: white;
-}
-
-.traitement h4{
-  font-size: 2.25rem;
-}
-
-.trait{
-  background: white;
-  width: 50%;
-}
-.conteneur {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-/* Hide the browser's default checkbox */
-.conteneur input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-/* Create a custom checkbox */
-.checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #eee;
-}
-
-/* On mouse-over, add a grey background color */
-.conteneur:hover input ~ .checkmark {
-  background-color: #ccc;
-}
-
-/* When the checkbox is checked, add a blue background */
-.conteneur input:checked ~ .checkmark {
-  background-color: #2196F3;
-}
-
-/* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-/* Show the checkmark when checked */
-.conteneur input:checked ~ .checkmark:after {
-  display: block;
-}
-
-/* Style the checkmark/indicator */
-.conteneur .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
 
 #TitleContainer{
   height: 100px;
@@ -357,10 +419,14 @@ name: "MedicalMonitoringComponent",
   border-radius: 8px;
 }
 
-#ContainerOrdonnance, #ContainerTraitement{ margin-top: 50px; color: #F5F5F5; text-transform: uppercase; background-color: rgba(12,12,12,0.8); border-radius: 8px; padding-top: 20px; padding-left: 20px; padding-right: 20px; padding-bottom: 20px; }
+#ContainerOrdonnance, #ContainerTraitement{ margin-top: 50px; color: #F5F5F5; background-color: rgba(12,12,12,0.8); border-radius: 8px; padding-top: 20px; padding-left: 20px; padding-right: 20px; padding-bottom: 20px; }
 
 hr{ border:2px solid white; border-radius: 4px; width: 70%; }
 
-.medic-pt{ padding-top: 15px; }
+.uppercase{ text-transform: uppercase; }
+
+.card{ background: none !important;}
+
+.img-pills{ border-radius: 128px; }
 
 </style>
