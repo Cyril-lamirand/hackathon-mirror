@@ -6,7 +6,7 @@ import MedicalMonitoring from "@/views/MedicalMonitoring"
 import Calendar from "@/views/Calendar"
 import Weather from "@/views/Weather"
 import Setting from "@/views/Setting"
-import Note from "@/views/Note"
+import Mirror from "@/views/Mirror"
 
 Vue.use(VueRouter)
 
@@ -30,9 +30,9 @@ const routes = [
   },
 
   {
-    path: '/Notes',
-    name: 'Notes',
-    component: Note
+    path: '/Mirror',
+    name: 'Mirror',
+    component: Mirror
   },
 
   {

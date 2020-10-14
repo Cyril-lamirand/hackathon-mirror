@@ -55,7 +55,7 @@
         <div class="col-6">
           <div class="widget_home">
             <div class="container">
-              <router-link to="/Notes">
+              <router-link to="/Mirror">
                 <div class="row">
                   <div class="col-4">
                     <div class="justify-content-center">
@@ -63,7 +63,7 @@
                     </div>
                   </div>
                   <div class="col-8">
-                    <h3>Notes<br>Personnelles</h3>
+                    <h3>Mode<br>Miroir</h3>
                   </div>
                 </div>
               </router-link>
