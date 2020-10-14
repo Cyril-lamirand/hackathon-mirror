@@ -11,19 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ca66d5d-5616-4cf0-9312-5a89d465a252" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../dvj-flight/src/components/AirportMap.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dvj-flight/src/components/Navbar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dvj-flight/src/components/TreeMap.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/app.a94b6a86.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/chunk-vendors.f0745b7d.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.9364cbef.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.9364cbef.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.4abe623c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.4abe623c.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MedicalMonitoringComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MedicalMonitoringComponent.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +46,7 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -74,6 +66,7 @@
       <workItem from="1602608871211" duration="505000" />
       <workItem from="1602612812408" duration="12362000" />
       <workItem from="1602662568834" duration="96000" />
+      <workItem from="1602663915696" duration="4398000" />
     </task>
     <servers />
   </component>
@@ -101,5 +94,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602596672489" />
+    <state x="341" y="175" key="SettingsEditor" timestamp="1602664015375">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1602664015375" />
   </component>
 </project>
