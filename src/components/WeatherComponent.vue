@@ -55,6 +55,17 @@
           hide-header="true"
       />
     </div>
+
+    <div class="WeatherContainerContent">
+      <vue-weather
+          api-key="a9a79e59327a0dc88a110c7f442c8db8"
+          units="uk"
+          language="fr"
+          bar-color="#F5F5F5"
+          text-color="#F5F5F5"
+          hide-header="true"
+      />
+    </div>
     <!-- Navigation Fixe : BAS -->
     <Navbar/>
   </div>
