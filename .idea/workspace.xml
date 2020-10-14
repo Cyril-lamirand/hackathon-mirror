@@ -11,28 +11,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ca66d5d-5616-4cf0-9312-5a89d465a252" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/NoteComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SettingComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Note.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Setting.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dvj-flight/src/components/AirportMap.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dvj-flight/src/components/Navbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dvj-flight/src/components/TreeMap.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/app.a94b6a86.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/chunk-vendors.f0745b7d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.9364cbef.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.9364cbef.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.4abe623c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.4abe623c.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CalendarComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CalendarComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HomeComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MedicalMonitoringComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MedicalMonitoringComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavbarComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavbarComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TimeComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TimeComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WeatherComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WeatherComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WeatherWidgetComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WeatherWidgetComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/MedicalMonitoring.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/MedicalMonitoring.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Navbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Time.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Time.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +73,7 @@
       <workItem from="1602594598382" duration="10994000" />
       <workItem from="1602608871211" duration="505000" />
       <workItem from="1602612812408" duration="12362000" />
+      <workItem from="1602662568834" duration="96000" />
     </task>
     <servers />
   </component>

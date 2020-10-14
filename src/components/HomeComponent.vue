@@ -114,7 +114,7 @@ export default {
 
 h2, h3, h6{ color: #f5f5f5; text-shadow: 0px 0px 2px rgba(0, 0, 0, 1); }
 
-h2{ font-size: 150px;}
+h2{ font-size: 100px;}
 
 h2, h3{
   display: flex;
@@ -122,7 +122,7 @@ h2, h3{
   height: 300px;
 }
 
-h3{ font-size: 65px;}
+h3{ font-size: 45px;}
 
 h6{ font-size: 96px;}
 
