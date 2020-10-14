@@ -329,7 +329,7 @@ name: "CalendarComponent",
 
 .contentCalendar{ background-color: rgba(12,12,12,0.8);; height: 100%; padding-top: 15px; padding-left: 10px; padding-right: 10px; border-radius: 8px; }
 
-h3{ color: #F5F5F5; }
+h3{ color: #F5F5F5; font-size: 22px; }
 
 hr{ border:1px solid white; }
 
