@@ -12,11 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9ca66d5d-5616-4cf0-9312-5a89d465a252" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/app.fbca8921.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/app.071a6dd0.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.93789285.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.93789285.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CalendarComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CalendarComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WeatherComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WeatherComponent.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
