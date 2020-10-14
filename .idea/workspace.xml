@@ -11,17 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ca66d5d-5616-4cf0-9312-5a89d465a252" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/app.5b7eeea1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.5022a56f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.5022a56f.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.b664fe62.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.b664fe62.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NoteComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MirrorComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Note.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Mirror.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MirrorComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MirrorComponent.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

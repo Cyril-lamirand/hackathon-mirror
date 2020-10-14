@@ -1,6 +1,7 @@
 <template>
   <div id="MirrorComponent">
 
+
     <!-- Navigation Fixe : BAS -->
     <Navbar/>
   </div>
