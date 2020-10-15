@@ -5,10 +5,12 @@
       <div class="headermessage-margin">
           <b-avatar class="bavatarleft" variant="primary" text="AL"></b-avatar>
           <b-avatar class="bavatarleft" variant="primary" text="CL"></b-avatar>
+          <b-avatar class="bavatarleft" variant="primary" text="AF"></b-avatar>
           <b-avatar class="bavatarleft" variant="primary" text="LJ"></b-avatar>
           <b-avatar class="bavatarleft" variant="primary" text="MD"></b-avatar>
           <b-avatar class="bavatarleft" variant="primary" text="PR"></b-avatar>
           <b-avatar class="bavatarleft" variant="primary" text="RT"></b-avatar>
+          <b-avatar class="bavatarleft" variant="primary" text="SB"></b-avatar>
           <p>Groupe de Famille</p>
       </div>
       <div class="d-flex my-3">
@@ -138,7 +140,7 @@ p{
 }
 
 .bavatarleft{
-  margin-left: -20px;
+  margin-left: -10px;
 }
 
 .message{
