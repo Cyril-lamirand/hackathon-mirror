@@ -108,7 +108,7 @@
                           v-model="checked"
                           :options="lundi"
                           class="mb-3"
-                          value-field="item"
+                          value-field="id"
                           text-field="name"
                           disabled-field="notEnabled"
                           size="lg"
@@ -143,7 +143,7 @@
                           v-model="checked"
                           :options="mardi"
                           class="mb-3"
-                          value-field="item"
+                          value-field="id"
                           text-field="name"
                           disabled-field="notEnabled"
                           size="lg"
@@ -178,7 +178,7 @@
                           v-model="checked"
                           :options="mercredi"
                           class="mb-3"
-                          value-field="item"
+                          value-field="id"
                           text-field="name"
                           disabled-field="notEnabled"
                           size="lg"
@@ -213,7 +213,7 @@
                           v-model="checked"
                           :options="jeudi"
                           class="mb-3"
-                          value-field="item"
+                          value-field="id"
                           text-field="name"
                           disabled-field="notEnabled"
                           size="lg"
@@ -293,7 +293,7 @@
                           v-model="checked"
                           :options="samedi"
                           class="mb-3"
-                          value-field="item"
+                          value-field="id"
                           text-field="name"
                           disabled-field="notEnabled"
                           size="lg"
@@ -328,7 +328,7 @@
                           v-model="checked"
                           :options="dimanche"
                           class="mb-3"
-                          value-field="item"
+                          value-field="id"
                           text-field="name"
                           disabled-field="notEnabled"
                           size="lg"
@@ -369,7 +369,7 @@ name: "MedicalMonitoringComponent",
       value:[],
 
       checked: [
-        '1','2','3','4',
+        1,'2','3','4',
         '5','6','7','8',
         '9','10','11',
         '13','14','15','16'
