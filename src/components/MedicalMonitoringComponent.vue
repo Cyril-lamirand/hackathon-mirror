@@ -89,7 +89,7 @@
                 <b-collapse id="accordion-1" visible accordion="my-accordion" role="tabpanel">
                   <b-card-body>
                     <b-card-text>
-                      <b-progress :value="valueLundi" show-value striped :animated=true class="mb-3"></b-progress>
+                      <b-progress height="1.5rem" :value="valueLundi" show-value striped :animated=true class="mb-3"></b-progress>
                       <p>Matinée</p>
                       <ul>
                         <li>Laméline x1</li>
@@ -111,6 +111,7 @@
                           value-field="item"
                           text-field="name"
                           disabled-field="notEnabled"
+                          size="lg"
                       ></b-form-checkbox-group>
                     </b-card-text>
                   </b-card-body>
@@ -123,7 +124,7 @@
                 <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
                   <b-card-body>
                     <b-card-text>
-                      <b-progress :value="valueMardi" show-value striped :animated=true class="mb-3"></b-progress>
+                      <b-progress height="1.5rem" :value="valueMardi" show-value striped :animated=true class="mb-3"></b-progress>
                       <p>Matinée</p>
                       <ul>
                         <li>Laméline x1</li>
@@ -145,6 +146,7 @@
                           value-field="item"
                           text-field="name"
                           disabled-field="notEnabled"
+                          size="lg"
                       ></b-form-checkbox-group>
                     </b-card-text>
                   </b-card-body>
@@ -157,7 +159,7 @@
                 <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
                   <b-card-body>
                     <b-card-text>
-                      <b-progress :value="valueMercredi" show-value striped :animated=true variant="warning" class="mb-3"></b-progress>
+                      <b-progress height="1.5rem" :value="valueMercredi" show-value striped :animated=true variant="warning" class="mb-3"></b-progress>
                       <p>Matinée</p>
                       <ul>
                         <li>Laméline x1</li>
@@ -179,6 +181,7 @@
                           value-field="item"
                           text-field="name"
                           disabled-field="notEnabled"
+                          size="lg"
                       ></b-form-checkbox-group>
                     </b-card-text>
                   </b-card-body>
@@ -191,7 +194,7 @@
                 <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
                   <b-card-body>
                     <b-card-text>
-                      <b-progress :value="valueJeudi" show-value striped :animated=true class="mb-3"></b-progress>
+                      <b-progress height="1.5rem" :value="valueJeudi" show-value striped :animated=true class="mb-3"></b-progress>
                       <p>Matinée</p>
                       <ul>
                         <li>Laméline x1</li>
@@ -213,6 +216,7 @@
                           value-field="item"
                           text-field="name"
                           disabled-field="notEnabled"
+                          size="lg"
                       ></b-form-checkbox-group>
                     </b-card-text>
                   </b-card-body>
@@ -255,6 +259,7 @@
                           class="mb-3"
                           value-field="id"
                           text-field="name"
+                          size="lg"
                       >
                       </b-form-checkbox-group>
                       <p>Sélection : {{ selected }} // AllChecked : {{ AllChecked }}</p>
@@ -269,7 +274,7 @@
                 <b-collapse id="accordion-6" accordion="my-accordion" role="tabpanel">
                   <b-card-body>
                     <b-card-text>
-                      <b-progress :value="valueSamedi" show-value class="mb-3"></b-progress>
+                      <b-progress height="1.5rem" :value="valueSamedi" show-value class="mb-3"></b-progress>
                       <p>Matinée</p>
                       <ul>
                         <li>Laméline x1</li>
@@ -291,6 +296,7 @@
                           value-field="item"
                           text-field="name"
                           disabled-field="notEnabled"
+                          size="lg"
                       ></b-form-checkbox-group>
                     </b-card-text>
                   </b-card-body>
@@ -303,7 +309,7 @@
                 <b-collapse id="accordion-7" accordion="my-accordion" role="tabpanel">
                   <b-card-body>
                     <b-card-text>
-                      <b-progress :value="valueDimanche" show-value class="mb-3"></b-progress>
+                      <b-progress height="1.5rem" :value="valueDimanche" show-value class="mb-3"></b-progress>
                       <p>Matinée</p>
                       <ul>
                         <li>Laméline x1</li>
@@ -325,6 +331,7 @@
                           value-field="item"
                           text-field="name"
                           disabled-field="notEnabled"
+                          size="lg"
                       ></b-form-checkbox-group>
                     </b-card-text>
                   </b-card-body>

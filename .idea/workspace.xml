@@ -12,6 +12,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9ca66d5d-5616-4cf0-9312-5a89d465a252" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/app.607deb53.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.94619bb6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.94619bb6.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MedicalMonitoringComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MedicalMonitoringComponent.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +81,7 @@
       <workItem from="1602662568834" duration="96000" />
       <workItem from="1602663915696" duration="4398000" />
       <workItem from="1602707285447" duration="9953000" />
-      <workItem from="1602752852693" duration="3554000" />
+      <workItem from="1602752852693" duration="4509000" />
     </task>
     <servers />
   </component>
