@@ -225,6 +225,16 @@
                 <b-collapse id="accordion-5" accordion="my-accordion" role="tabpanel">
                   <b-card-body>
                     <b-card-text>
+
+                      <b-progress
+                          :value="valueVendredi"
+                          show-value
+                          striped
+                          :animated=true
+                          class="mb-3"
+                          v-if="AllChecked"
+                      ></b-progress>
+
                       <p>Matinée</p>
                       <ul>
                         <li>Laméline x1</li>
@@ -243,7 +253,7 @@
                           v-model="selected"
                           :options="vendredi"
                           class="mb-3"
-                          value-field="item"
+                          value-field="id"
                           text-field="name"
                       >
                       </b-form-checkbox-group>
@@ -352,58 +362,62 @@ name: "MedicalMonitoringComponent",
       value:[],
 
       checked: [
-        'A','B','C','D',
-        'E','F','G','H',
-        'I','K','L',
-        'M','N','O','P'
+        '1','2','3','4',
+        '5','6','7','8',
+        '9','10','11',
+        '13','14','15','16'
       ],
 
       lundi: [
-        { item: 'A', name: 'Laméline x2', notEnabled: true },
-        { item: 'B', name: 'Dafalgan x1', notEnabled: true },
-        { item: 'C', name: 'Spasfon x1', notEnabled: true },
-        { item: 'D', name: 'Doliprane x3', notEnabled: true }
+        { id:1, name: 'Laméline x2',  notEnabled: true },
+        { id:2, name: 'Dafalgan x1',  notEnabled: true },
+        { id:3, name: 'Spasfon x1',   notEnabled: true },
+        { id:4, name: 'Doliprane x3', notEnabled: true }
       ],
       mardi: [
-        { item: 'E', name: 'Laméline x2', notEnabled: true },
-        { item: 'F', name: 'Dafalgan x1', notEnabled: true },
-        { item: 'G', name: 'Spasfon x1', notEnabled: true },
-        { item: 'H', name: 'Doliprane x3', notEnabled: true }
+        { id:5, name: 'Laméline x2',  notEnabled: true },
+        { id:6, name: 'Dafalgan x1',  notEnabled: true },
+        { id:7, name: 'Spasfon x1',   notEnabled: true },
+        { id:8, name: 'Doliprane x3', notEnabled: true }
       ],
       mercredi: [
-        { item: 'I', name: 'Laméline x2', notEnabled: true },
-        { item: 'J', name: 'Dafalgan x1', notEnabled: true },
-        { item: 'K', name: 'Spasfon x1', notEnabled: true },
-        { item: 'L', name: 'Doliprane x3', notEnabled: true }
+        { id:9,  name: 'Laméline x2',  notEnabled: true },
+        { id:10, name: 'Dafalgan x1',  notEnabled: true },
+        { id:11, name: 'Spasfon x1',   notEnabled: true },
+        { id:12, name: 'Doliprane x3', notEnabled: true }
       ],
       jeudi: [
-        { item: 'M', name: 'Laméline x2', notEnabled: true },
-        { item: 'N', name: 'Dafalgan x1', notEnabled: true },
-        { item: 'O', name: 'Spasfon x1', notEnabled: true },
-        { item: 'P', name: 'Doliprane x3', notEnabled: true }
+        { id:13, name: 'Laméline x2',  notEnabled: true },
+        { id:14, name: 'Dafalgan x1',  notEnabled: true },
+        { id:15, name: 'Spasfon x1',   notEnabled: true },
+        { id:16, name: 'Doliprane x3', notEnabled: true }
       ],
       vendredi: [
-        { item: 'Q', name: 'Laméline x2', value: 25 },
-        { item: 'R', name: 'Dafalgan x1', value: 25 },
-        { item: 'S', name: 'Spasfon x1', value: 25 },
-        { item: 'T', name: 'Doliprane x3', value: 25 }
+        { id:17, name: 'Laméline x2',  value: 25 },
+        { id:18, name: 'Dafalgan x1',  value: 25 },
+        { id:19, name: 'Spasfon x1',   value: 25 },
+        { id:20, name: 'Doliprane x3', value: 25 }
       ],
       samedi: [
-        { item: 'U', name: 'Laméline x2', notEnabled: true },
-        { item: 'V', name: 'Dafalgan x1', notEnabled: true },
-        { item: 'W', name: 'Spasfon x1', notEnabled: true },
-        { item: 'X', name: 'Doliprane x3', notEnabled: true }
+        { id:21, name: 'Laméline x2',  notEnabled: true },
+        { id:22, name: 'Dafalgan x1',  notEnabled: true },
+        { id:23, name: 'Spasfon x1',   notEnabled: true },
+        { id:24, name: 'Doliprane x3', notEnabled: true }
       ],
       dimanche: [
-        { item: 'Y', name: 'Laméline x2', notEnabled: true },
-        { item: 'Z', name: 'Dafalgan x1', notEnabled: true },
-        { item: '0', name: 'Spasfon x1', notEnabled: true },
-        { item: '1', name: 'Doliprane x3', notEnabled: true }
+        { id:25, name: 'Laméline x2',  notEnabled: true },
+        { id:26, name: 'Dafalgan x1',  notEnabled: true },
+        { id:27, name: 'Spasfon x1',   notEnabled: true },
+        { id:28, name: 'Doliprane x3', notEnabled: true }
       ]
 
     }
   },
-  methods: {},
+  methods: {
+    AllTheFridayMeds() {
+      return
+    }
+  },
   computed: {}
 }
 </script>
