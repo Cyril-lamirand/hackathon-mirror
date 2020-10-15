@@ -2,7 +2,7 @@
   <div id="MessengerComponent">
 
     <div class="headermessage">
-      <div class="headermessage-margin">
+      <div class="text-center" id="HeaderMessenger">
           <b-avatar class="bavatarleft" variant="primary" text="AL"></b-avatar>
           <b-avatar class="bavatarleft" variant="primary" text="CL"></b-avatar>
           <b-avatar class="bavatarleft" variant="primary" text="AF"></b-avatar>
@@ -31,8 +31,6 @@
           <img src="https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313_1280.jpg" alt="children">
         </div>
       </div>
-
-
     </div>
 
     <input
@@ -86,7 +84,7 @@ input {
   outline: none;
   position: absolute;
   left: 0;
-  bottom: -38em;
+  bottom: -34em;
 
 }
 
@@ -99,7 +97,7 @@ input {
   position: absolute !important;
   width: 100% !important;
   left: 0 !important;
-  bottom: -63em !important;
+  bottom: -58em !important;
 }
 
 /*
@@ -127,16 +125,9 @@ input {
 }
 
 .headermessage{
-  background: rgba(76, 76, 76, 0.75);
-}
-.headermessage-margin{
-  margin: 0 0 0 43.5%;
-}
-
-p{
-  color: white;
-  margin-left: -82.5px;
-  font-size:2rem;
+  background-color: rgba(12,12,12,0.8);
+  border-radius: 16px;
+  padding-left: 10px; padding-right: 10px; padding-bottom: 10px;
 }
 
 .bavatarleft{
@@ -149,12 +140,16 @@ p{
   font-size: 1.25rem;
   color: white;
   border-radius: 10px;
-  margin: -5px 0 0 0;
   max-width: 40%;
+  margin-left: 5px;
 }
 
 .message img{
   max-width: 100%;
 }
+
+#HeaderMessenger{ padding-top: 20px; }
+
+p{ padding-top: 20px; color:#F5F5F5; font-size: 30px; padding-bottom: 20px;}
 
 </style>
