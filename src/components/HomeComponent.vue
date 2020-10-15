@@ -82,7 +82,7 @@
                   </div>
                   <div class="col-4">
                     <div class="text-center">
-                      <h2><i class="fas fa-cog"></i></h2>
+                      <h2><i class="fas fa-comments"></i></h2>
                     </div>
                   </div>
                 </div>
