@@ -3,12 +3,12 @@
 
     <div class="headermessage">
       <div class="headermessage-margin">
-          <b-avatar class="bavatarleft" variant="primary" text="BV"></b-avatar>
-          <b-avatar class="bavatarleft" variant="primary" text="BV"></b-avatar>
-          <b-avatar class="bavatarleft" variant="primary" text="BV"></b-avatar>
-          <b-avatar class="bavatarleft" variant="primary" text="BV"></b-avatar>
-          <b-avatar class="bavatarleft" variant="primary" text="BV"></b-avatar>
-          <b-avatar class="bavatarleft" variant="primary" text="BV"></b-avatar>
+          <b-avatar class="bavatarleft" variant="primary" text="AL"></b-avatar>
+          <b-avatar class="bavatarleft" variant="primary" text="CL"></b-avatar>
+          <b-avatar class="bavatarleft" variant="primary" text="LJ"></b-avatar>
+          <b-avatar class="bavatarleft" variant="primary" text="MD"></b-avatar>
+          <b-avatar class="bavatarleft" variant="primary" text="PR"></b-avatar>
+          <b-avatar class="bavatarleft" variant="primary" text="RT"></b-avatar>
           <p>Groupe de Famille</p>
       </div>
       <div class="d-flex my-3">
@@ -84,7 +84,7 @@ input {
   outline: none;
   position: absolute;
   left: 0;
-  bottom: -38.9em;
+  bottom: -38em;
 
 }
 
