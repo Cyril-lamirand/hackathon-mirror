@@ -5,7 +5,7 @@ import Home from '@/views/Home.vue'
 import MedicalMonitoring from "@/views/MedicalMonitoring"
 import Calendar from "@/views/Calendar"
 import Weather from "@/views/Weather"
-import Setting from "@/views/Setting"
+import Messenger from "@/views/Messenger"
 import Mirror from "@/views/Mirror"
 
 Vue.use(VueRouter)
@@ -36,9 +36,9 @@ const routes = [
   },
 
   {
-    path: '/Settings',
-    name: 'Settings',
-    component: Setting
+    path: '/Messenger',
+    name: 'Messenger',
+    component: Messenger
   },
 
   {

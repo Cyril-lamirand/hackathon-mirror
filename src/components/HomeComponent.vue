@@ -73,11 +73,11 @@
         <div class="col-6">
           <div class="widget_home">
             <div class="container">
-              <router-link to="/Settings">
+              <router-link to="/Messenger">
                 <div class="row">
                   <div class="col-8">
                     <div>
-                      <h3>Les<br>Paramètres</h3>
+                      <h3>Ma<br>Messagerie</h3>
                     </div>
                   </div>
                   <div class="col-4">
