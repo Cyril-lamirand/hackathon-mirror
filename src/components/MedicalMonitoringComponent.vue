@@ -231,14 +231,11 @@
                     <b-card-text>
 
                       <b-progress
+                          height="1.5rem"
                           :value="valueVendredi"
-                          show-value
-                          striped
-                          :animated=true
-                          class="mb-3"
-                          v-if="AllChecked"
-                      ></b-progress>
-
+                          show-value striped :animated=true
+                          class="mb-3">
+                      </b-progress>
                       <p>Matinée</p>
                       <ul>
                         <li>Laméline x1</li>
@@ -260,6 +257,7 @@
                           value-field="id"
                           text-field="name"
                           size="lg"
+                          v-on:click="valueVendredi += 25"
                       >
                       </b-form-checkbox-group>
                       <p>Sélection : {{ selected }} // AllChecked : {{ AllChecked }}</p>
@@ -341,6 +339,9 @@
           </div>
         </div>
       </div>
+      <!-- Adding the features -->
+      <div id="lastFeatures">
+      </div>
     </div>
     <!-- Navigation Fixe : BAS -->
     <Navbar></Navbar>
@@ -350,9 +351,11 @@
 <script>
 import Navbar from "@/views/Navbar";
 
+
 export default {
 name: "MedicalMonitoringComponent",
   components: { Navbar },
+
   data() {
     return {
       valueLundi: 100,
@@ -449,5 +452,7 @@ hr{ border:2px solid white; border-radius: 4px; width: 70%; }
 .card{ background: none !important;}
 
 .img-pills{ border-radius: 128px; }
+
+#lastFeatures{ padding-top: 50px; width: 100%; margin-top: 50px; height: 500px; background-color: black; }
 
 </style>
