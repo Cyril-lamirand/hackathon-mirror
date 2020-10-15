@@ -11,12 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ca66d5d-5616-4cf0-9312-5a89d465a252" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/SimpleKeyboard.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/app.607deb53.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.94619bb6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.94619bb6.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MedicalMonitoringComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MedicalMonitoringComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MessengerComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessengerComponent.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +33,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ipBLTD6vtQ7GMiLnx1yXXeZdhp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="PluginDummyText.Genre" value="esoteric" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -82,6 +83,7 @@
       <workItem from="1602663915696" duration="4398000" />
       <workItem from="1602707285447" duration="9953000" />
       <workItem from="1602752852693" duration="4509000" />
+      <workItem from="1602764026508" duration="4992000" />
     </task>
     <servers />
   </component>
@@ -109,22 +111,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602596672489" />
-    <state width="1899" height="338" key="GridCell.Tab.0.bottom" timestamp="1602673547317">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1659" height="280" key="GridCell.Tab.0.bottom" timestamp="1602764092330">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1899" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602673547317" />
-    <state width="1899" height="338" key="GridCell.Tab.0.center" timestamp="1602673547317">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1659" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1602764092330" />
+    <state width="1659" height="280" key="GridCell.Tab.0.center" timestamp="1602764092329">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1899" height="338" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602673547317" />
-    <state width="1899" height="338" key="GridCell.Tab.0.left" timestamp="1602673547317">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1659" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1602764092329" />
+    <state width="1659" height="280" key="GridCell.Tab.0.left" timestamp="1602764092329">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1899" height="338" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602673547317" />
-    <state width="1899" height="338" key="GridCell.Tab.0.right" timestamp="1602673547317">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1659" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1602764092329" />
+    <state width="1659" height="280" key="GridCell.Tab.0.right" timestamp="1602764092330">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1899" height="338" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602673547317" />
+    <state width="1659" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1602764092330" />
     <state width="1899" height="338" key="GridCell.Tab.1.bottom" timestamp="1602673547318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -177,10 +183,11 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1602664015375" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1602682544580">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="436" height="441" key="SwitcherDM" timestamp="1602764334598">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1602682544580" />
+    <state width="436" height="441" key="SwitcherDM/0.23.1680.1027@0.23.1680.1027" timestamp="1602764334598" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1602680570129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -196,7 +203,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/views/Messenger.vue</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
