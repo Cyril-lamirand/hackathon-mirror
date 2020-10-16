@@ -341,6 +341,7 @@
       </div>
       <!-- Adding the features -->
       <div id="lastFeatures">
+        <Webcam/>
       </div>
     </div>
     <!-- Navigation Fixe : BAS -->
@@ -350,11 +351,12 @@
 
 <script>
 import Navbar from "@/views/Navbar";
+import Webcam from "@/views/Webcam";
 
 
 export default {
 name: "MedicalMonitoringComponent",
-  components: { Navbar },
+  components: { Navbar, Webcam },
 
   data() {
     return {

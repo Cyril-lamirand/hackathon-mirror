@@ -7,6 +7,7 @@ import Calendar from "@/views/Calendar"
 import Weather from "@/views/Weather"
 import Messenger from "@/views/Messenger"
 import Mirror from "@/views/Mirror"
+import Webcam from "@/views/Webcam"
 
 Vue.use(VueRouter)
 
@@ -22,6 +23,13 @@ const routes = [
     name: 'Medical',
     component: MedicalMonitoring
   },
+
+  {
+    path: '/Webcam',
+    name: 'Webcam',
+    component: Webcam
+  },
+
 
   {
     path: '/Calendar',
