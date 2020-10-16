@@ -11,14 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ca66d5d-5616-4cf0-9312-5a89d465a252" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/SimpleKeyboard.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< Updated upstream
+      <change beforePath="$PROJECT_DIR$/dist/css/app.6d9d6254.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/chunk-vendors.30fa7389.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.1031b060.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.1031b060.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.d0edf25f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.d0edf25f.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MessengerComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessengerComponent.vue" afterDir="false" />
-=======
       <change beforePath="$PROJECT_DIR$/src/components/MedicalMonitoringComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MedicalMonitoringComponent.vue" afterDir="false" />
->>>>>>> Stashed changes
+      <change beforePath="$PROJECT_DIR$/src/components/WebcamComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WebcamComponent.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,12 +89,11 @@
       <workItem from="1602662568834" duration="96000" />
       <workItem from="1602663915696" duration="4398000" />
       <workItem from="1602707285447" duration="9953000" />
-<<<<<<< Updated upstream
       <workItem from="1602752852693" duration="4509000" />
-      <workItem from="1602764026508" duration="4992000" />
-=======
-      <workItem from="1602752852693" duration="6483000" />
->>>>>>> Stashed changes
+      <workItem from="1602764026508" duration="5215000" />
+      <workItem from="1602782456255" duration="989000" />
+      <workItem from="1602836693319" duration="2096000" />
+      <workItem from="1602846634106" duration="664000" />
     </task>
     <servers />
   </component>

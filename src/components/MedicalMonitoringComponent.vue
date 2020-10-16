@@ -455,6 +455,6 @@ hr{ border:2px solid white; border-radius: 4px; width: 70%; }
 
 .img-pills{ border-radius: 128px; }
 
-#lastFeatures{ padding-top: 50px; width: 100%; margin-top: 50px; height: 500px; background-color: black; }
+#lastFeatures{ padding-top: 50px; width: 100%; margin-top: 50px; height: 400px; background-color: black; }
 
 </style>

@@ -4,6 +4,7 @@
         ref="webcam"
         :device-id="deviceId"
         width="100%"
+        height="300px"
         @started="onStarted"
         @stopped="onStopped"
         @error="onError"
@@ -80,7 +81,7 @@ export default {
 
 <style scoped>
 
-#WebcamComponent{ width: 100%; height: 500px;}
+#WebcamComponent{ width: 100%; height: 200px !important;}
 
 .WebcamFeat{ background-color: rgba(0,24,24,0.5)}
 
